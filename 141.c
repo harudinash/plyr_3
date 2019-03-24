@@ -29,9 +29,12 @@ int main()
          if(k==0)
          {
          printf("yes");
+         l=1;
          break;
          }
      }
      
+     if(l==0)
+     printf("no");
     return 0;
 }
