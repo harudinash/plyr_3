@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i,j,k,l,m,n,r,o=1;
+    int i,j,k,l,m,n,r;
     char a[10000];
     printf("Input :\n");
     scanf("%d",&n);
@@ -12,8 +12,12 @@ int main()
         scanf("%s",a);
         for(j=0;a[j]!='\0';j++)
         {
-            if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u')
-            l++;
+            if(a[j]=='a'||a[j]=='e'||a[j]=='i'||a[j]=='o'||a[j]=='u')
+           {
+               l++;
+            printf("l %d",l);
+            break;
+           }
         }
         
         
